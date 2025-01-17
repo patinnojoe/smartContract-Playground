@@ -1,0 +1,53 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "send",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Fundme.sol": "Fundme"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Fundme.sol": {
+			"keccak256": "0x38264f0794eb28a9c57bb7f44ac49462b9272f4afe8733cc9ae320540fda00d2",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://33a316c5ff3ee8e30d720ec2075e3ec251a9eb414a779d9cbd6fcb6d6b8a087a",
+				"dweb:/ipfs/QmY9SkFF3SCAB2NwkLuDejgdHNd1uhEPTZhWg4f93aDSJS"
+			]
+		}
+	},
+	"version": 1
+}
