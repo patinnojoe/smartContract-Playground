@@ -7,6 +7,20 @@
 		"abi": [
 			{
 				"inputs": [],
+				"name": "getConversionRate",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getPrice",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "send",
 				"outputs": [],
 				"stateMutability": "payable",
@@ -41,11 +55,11 @@
 	},
 	"sources": {
 		"contracts/Fundme.sol": {
-			"keccak256": "0x38264f0794eb28a9c57bb7f44ac49462b9272f4afe8733cc9ae320540fda00d2",
+			"keccak256": "0x43d0994ec821673583acf676b327aa10338fe19b6f089ed0ebfe0f1900365814",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://33a316c5ff3ee8e30d720ec2075e3ec251a9eb414a779d9cbd6fcb6d6b8a087a",
-				"dweb:/ipfs/QmY9SkFF3SCAB2NwkLuDejgdHNd1uhEPTZhWg4f93aDSJS"
+				"bzz-raw://d866de90dd85da0eb248884cba97e2fb7262b74576041a54e385b75b456383e6",
+				"dweb:/ipfs/QmXp6ibAiPEytrtESnKrkQkGM5C6sc7PmkR2YeioHQ5VXg"
 			]
 		}
 	},
