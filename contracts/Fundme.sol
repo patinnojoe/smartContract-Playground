@@ -10,13 +10,14 @@ contract  Fundme{
     
     }
 
-    function getPrice() public{
-        AggregatorV3Interface priceFeed;
-
-        priceFeed = AggregatorV3Interface(0x694AA1769357215DE4FAC081bf1f309aDC325306);
+    function getPrice() public returns (uint256){
+        AggregatorV3Interface priceFeed = AggregatorV3Interface(0x694AA1769357215DE4FAC081bf1f309aDC325306);
         // addreess 0x694AA1769357215DE4FAC081bf1f309aDC325306
+        (,int256 answer,,,) = priceFeed.latestRoundData();
+        // price of eth in terms of USD
+        return uint256(answer * 1e10);
 
-        (uint80 roundId, int256 answer, uint256 startedAt, uint256 updatedAt, uint80 answeredInRound) = priceFeed.latestRoundData();
+        
     }
 
      function getConversionRate()public{}
