@@ -9,6 +9,25 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "funders",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
 						"name": "ethAmmount",
 						"type": "uint256"
 					}
@@ -81,11 +100,11 @@
 			]
 		},
 		"contracts/Fundme.sol": {
-			"keccak256": "0x1a940e7aab4a1bcc2b233495f91ae80aada9b59be8df0bd7b5b2f3abb2b23b15",
+			"keccak256": "0x2ab279455ee1a7d23a0d25228d657eb10d9792cb401e74546e4d734c575cd61c",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://8b76f26af48cc99b8f75761f76914407e2f461e246d8a30eb41c46de34c7c870",
-				"dweb:/ipfs/QmVYuYbgF1qkPvYdtx1tiEfPzD6Mtut5ePzH8b8VSmAcae"
+				"bzz-raw://e449509b01ea1c57e6aac387e51b301de66b5a1922801e1a0a349ca2fe2249c3",
+				"dweb:/ipfs/QmQvQ6C6Jj7BhGZfZcSgNMF2WcW7VWxPMbYG6foVgaz7pB"
 			]
 		}
 	},
