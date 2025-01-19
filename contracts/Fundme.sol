@@ -6,7 +6,7 @@ import {AggregatorV3Interface} from "@chainlink/contracts/src/v0.8/shared/interf
 contract  Fundme{
     uint256 minimumUSD = 50;
     function send() public payable{
-        require(msg.value >=5, "Cant send less than 50USD");
+        require(getConversionRate(msg.value) >=5, "Cant send less than 50USD");
     
     }
 
