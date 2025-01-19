@@ -10,7 +10,7 @@ contract  Fundme{
     
     }
 
-    function getPrice() public returns (uint256){
+    function getPrice() public view returns (uint256){
         AggregatorV3Interface priceFeed = AggregatorV3Interface(0x694AA1769357215DE4FAC081bf1f309aDC325306);
         // addreess 0x694AA1769357215DE4FAC081bf1f309aDC325306
         (,int256 answer,,,) = priceFeed.latestRoundData();
@@ -20,5 +20,10 @@ contract  Fundme{
         
     }
 
-     function getConversionRate()public{}
+     function getConversionRate(uint256 ethAmmount)public view returns(uint256){
+       uint256 ethPrice =getPrice();
+       uint256 ethInUsd = (ethPrice * ethAmmount) / 1e10;
+        return ethInUsd;
+
+     }
 }
